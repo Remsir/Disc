@@ -39,6 +39,7 @@ class _AgregarScreenState extends State<AgregarScreen> {
                       border: InputBorder.none),
                 ),
               ),
+              
             ],
           ),
         ),

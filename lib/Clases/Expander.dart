@@ -161,6 +161,16 @@ class Examplebox extends StatelessWidget {
         ),
       ),
     );
-//flutter toggle button
+//Agregar
+    //git init
+//git add .
+//git commit -m "mensaje"
+//git branch -M main
+//git remote copiar ruta
+//git push -u origin main
+//actualizar
+//git add .
+//git commit -m "mensaje"
+//git push -u origin main
   }
 }
