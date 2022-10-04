@@ -1,3 +1,4 @@
+import 'package:disquera/Screen/agregar_screen.dart';
 import 'package:disquera/Screen/home_screen.dart';
 import 'package:disquera/Tabs/home_page.dart';
 import 'package:flutter/material.dart';
@@ -17,7 +18,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: //HomeScreen()
+      home:
+          //AgregarScreen()
+          //HomeScreen()
           HomeTab(),
     );
   }

@@ -1,3 +1,5 @@
+import 'package:disquera/Clases/Expander.dart';
+import 'package:disquera/Screen/agregar_screen.dart';
 import 'package:disquera/Screen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
@@ -41,8 +43,8 @@ class HomeTab extends StatelessWidget {
           ),
           body: TabBarView(children: [
             HomeScreen(),
-            HomeScreen(),
-            HomeScreen(),
+            AgregarScreen(),
+            ExpanderSpacerPage(),
             HomeScreen()
           ]),
         ),
